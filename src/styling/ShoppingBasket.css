@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.shoppingBasket {
+  font-family: "Lato", sans-serif;
+  background-color: #eaeded;
+  display: flex;
+}
+
+.shoppingCart {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  margin: 15px;
+}
+
+.cartSubtotal {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.cartSubtotal__heading > .ifNotEmpty {
+  font-size: 30px;
+  color: #0f1111;
+  font-weight: 400;
+  border-bottom: 1px solid lightgray;
+}
+
+.firstChoice {
+  display: flex;
+}
+
+.shoppingCartIcon {
+  margin: 19.08px;
+  font-size: 6.75rem !important;
+}
+
+.ifEmpty {
+  margin: 30px;
+}
+
+.ifEmpty > h1 {
+  font-size: 2.4rem;
+  color: #0f1111;
+  font-weight: 700;
+}
+.ifEmpty > p {
+  font-size: 1.4rem;
+  color: #007185;
+  font-weight: 400;
+}
+.saved {
+  margin-top: 5px;
+}
+
+.yourItems {
+  margin-top: 15px;
+  background-color: #fff;
+  padding: 5px 26px 5px 26px;
+}
+
+.yourItems > h1 {
+  margin: 5px auto 0% auto;
+}
+
+.savedItems {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
+
+.savedItems > p {
+  margin-left: 29px;
+  margin-bottom: 9px;
+  margin-top: 9px;
+  cursor: pointer;
+}
+
+.paratag {
+  margin-top: 0;
+}
+
+.relatedItems {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  /* min-width: 305px; */
+  /* min-height: 877.487px; */
+  max-height: 877.487px;
+  margin: 0 5px;
+}
+
+.relatedItems > img {
+  width: 100%;
+}
+
+.subtotal {
+  background-color: #fff;
+  /* height: 17.52rem; */
+}
+
+.sponseredItems {
+  background-color: #fff;
+  height: 567px;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productContainer__subtotal {
+  text-align: end;
+}
+
+.productContainer > .red {
+  width: 270px;
+  background-color: #fff;
+  height: 560px;
+  margin: 5px;
+  border: solid 1px #e7e7e7;
+}
+
+.subtotal__para {
+  display: flex;
+  position: relative;
+  left: 15px;
+  top: 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #565959;
+}
+
+.checkboxPara :first-child,
+.subtotal__para :first-child {
+  color: #067d62;
+}
+
+.checkboxPara {
+  margin-left: 0.5rem;
+}
+
+.subtotal > h2 {
+  margin: 30px 20px 7px;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.inputPara {
+  display: flex;
+  margin: 10px 15px;
+}
+
+.totalbtn {
+  width: 90%;
+  position: relative;
+  left: 1.5rem;
+  bottom: 0.6rem;
+}

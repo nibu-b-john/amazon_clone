@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  background-color: #131921;
+  max-height: 6rem;
+  max-width: 100%;
+  align-items: center;
+  color: #fff !important;
+}
+
+.amazonlogo {
+  height: 3.2rem;
+  width: 9.6rem;
+  flex-grow: 1;
+  margin-top: 1.6rem;
+  margin-left: 0.5rem;
+  margin-right: 1.6rem;
+}
+
+.headerSearch {
+  display: flex;
+  margin-top: 0.7rem;
+  flex-grow: 4;
+}
+
+.headerSideNav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  margin: 0.6rem;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.headerSearch input {
+  width: 100%;
+  border: none;
+  border-radius: 0.35rem 0 0 0.35rem;
+}
+
+.searchIco {
+  padding: 0.25rem;
+  background-color: #febd69;
+  color: #131921;
+  border-radius: 0 0.35rem 0.35rem 0;
+  height: 2.7rem !important;
+}
+
+.header__optionLineOne {
+  font-size: 1rem;
+}
+
+.header__optionLineTwo {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.header__optionBasket {
+  margin: 0.6rem;
+  display: flex;
+  color: #fff;
+}
+
+.basketIcon {
+  font-size: 2.4rem !important;
+}
+
+.searchIco:hover {
+  background-color: #f3a847;
+}
+
+.removeAnchor {
+  color: #fff;
+  text-decoration: none;
+}

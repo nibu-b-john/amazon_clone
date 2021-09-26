@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.payment {
+  margin: 2rem 20.9rem;
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  width: 52vw;
+}
+
+.reviewOrder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paymentImg {
+  margin: auto 0;
+}
+
+.payment > h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.payment > p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.details {
+  border: 1px solid #dddddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.address,
+.paymentMethod,
+.vouche {
+  width: 248px;
+}
+
+.address > h3,
+.paymentMethod > h3,
+.voucher > h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.address > p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.orderedItems {
+  border: 1px solid #dddddd;
+}
+
+.orderedItems > h1 {
+  color: #219e52;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-left: 2rem;
+}
+
+.paymentProducts {
+  display: flex;
+  margin: 3rem;
+}
+
+.paymentProducts > img {
+  width: 4vw;
+  margin-right: 2rem;
+}
+
+.paymentContent > h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.paymentContent > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.paymentPrice {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #b65034;
+}
+
+.coupounCode {
+  display: flex;
+}
+
+.paymentApplyBtn {
+  margin: 0 0.5rem;
+  width: 57px;
+  height: 28px;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+}
+
+.placeOrder {
+  margin-left: 1.5rem;
+  border: 1px solid #dddddd;
+  padding: 1rem;
+  height: 25.5vh;
+}
+
+.placeOrder > button {
+  width: 23.7rem;
+}
+
+.placeOrder h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.placeOrder p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.orderSummary {
+  display: flex;
+  /* border-bottom: 1px solid #dddddd; */
+  padding-bottom: 2rem;
+}
+
+.text,
+.value {
+  flex-grow: 1;
+}
+
+.text > h1,
+.value > h1 {
+  color: #b12704;
+  padding: 1rem 0;
+  border-top: 1px solid #dddddd;
+}

@@ -1,0 +1,46 @@
+input {
+  border: 1px solid #dddddd;
+}
+input:focus {
+  border: 1px solid #e49747;
+  outline: none;
+  box-shadow: 0 0 3px rgb(228 121 17 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+}
+
+.home {
+  background-color: #eaf8fd;
+  padding-bottom: 12rem;
+}
+
+.backgroundImage img {
+  position: relative;
+  width: 100%;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  z-index: 0;
+  /* margin-bottom: -35rem; */
+}
+
+.product__component {
+  margin: 6rem 15rem;
+  display: flex;
+  text-align: center;
+}
+
+.shopThese {
+  margin-top: -35rem;
+}
+
+.product {
+  flex-grow: 1;
+}
+
+.pureProducts {
+  justify-content: center;
+  flex-grow: 1;
+  display: flex;
+}

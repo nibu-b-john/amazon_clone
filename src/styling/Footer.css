@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.footer {
+  display: flex;
+  min-height: 210px;
+  background-color: #131a22;
+}
+
+.footerBtn button {
+  width: 100%;
+  border-radius: 0px;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  background: #37475a;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 0 !important;
+}
+
+.btn:hover {
+  opacity: 80%;
+}
