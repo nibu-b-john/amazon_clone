@@ -37,15 +37,18 @@ function notSignedIn() {
     <div className="header" id="top">
       
 <Link to="/">
+{/* amazon logo on navbar */}
 <img className="amazonlogo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon logo" />
 </Link>
 
 <div className="headerSearch">
+{/* amazon search on navbar */}
 <input type="text" className="headerInput" />
 <SearchIcon className="searchIco" />
 </div>
 
 <div className="headerSideNav">
+{/* contains signIn, basket, etc  */}
 <Link to={user==="SignIn"&&"/login"} onClick={notSignedIn}
 className="removeAnchor">
         <div className="header__option">

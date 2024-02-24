@@ -9,8 +9,6 @@ import { Link } from 'react-router-dom';
 
 var CurrencyFormat = require('react-currency-format');
 
-
-
 function ShoppingBasket() {
 
 
@@ -22,13 +20,11 @@ function ShoppingBasket() {
     const [editPara, setEditPara] = useState("No items to Buy again.");
  
     function hello(){
-
          setifSet({
             firstPara: true,
         secondPara: false 
          })
-         setEditPara("No items to Buy again.")
-        
+         setEditPara("No items to Buy again.")    
     }
 
     function bye(){
@@ -75,6 +71,8 @@ function ShoppingBasket() {
         })}
 
             </div>
+
+
             <div className="productContainer__subtotal">
 <h2>Subtotal ({basket.length} items): $
 {basket.length===0? 0 : <CurrencyFormat 

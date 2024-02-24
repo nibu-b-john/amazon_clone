@@ -1,16 +1,21 @@
 import React, { useContext } from 'react';
 import "../styling/Products.css"
+
+// const ThisContext = createContext() this is pulled from Statemanger to use dispatch
 import {ThisContext} from "./StateManger.jsx"
 
 
+// Got this value from Home.js props
 function Product({id, title, price, rating,description, image}) {
 
+
+// pulling [state, dispatch] = [manageItems[0], manageItems[1]]
 const manageItems = useContext(ThisContext)
 const [dispatch] = [manageItems[1]];
 
 function addToCart() {
 
-
+// sending data back StateManager.js
     dispatch({type: "addToCart",
 items:{
     key:{id},

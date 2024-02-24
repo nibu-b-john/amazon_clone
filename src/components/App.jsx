@@ -10,15 +10,12 @@ import {ThisContext} from "./StateManger.jsx"
 import { useContext } from "react";
 
 function App() {
-  const history = useHistory()
   const manageItems = useContext(ThisContext)
 const [{basket}] = [manageItems[0]]
   return (
+    // router is used to route the users into different urls.
     <Router>
     <div className="App">
-    
-   
-       
     <Switch>
       <Route exact path="/">
       <Header />
@@ -38,6 +35,7 @@ const [{basket}] = [manageItems[0]]
       <Route exact path="/payment">
       {basket.length!==0&& <Payment />}
       </Route>
+
 
     </Switch>
        

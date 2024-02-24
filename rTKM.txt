@@ -1,0 +1,11 @@
+inside index.js-->
+rendering app.js enclosed inside <Statamanager>
+
+index.js-->app.js
+inside app.js
+1.Router, Route, Switch are imported and used 
+  non react apps makes request to server everytime user wants to go to another page.
+  but with react apps, with the use of react-router only 1 request is made and then all the rest of the code is injected when required.
+  
+inside "/" path 
+app.js-->Home.jsx
